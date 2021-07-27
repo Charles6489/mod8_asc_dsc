@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/simu_isim_beh.exe" -prj "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/simu_beh.prj" "work.simu" 

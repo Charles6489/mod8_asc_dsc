@@ -1,0 +1,1 @@
+vhdtdtfi -prj mod8_asc_dsc -o D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/jk.vhi -module jk -template D:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work jk.vhd 

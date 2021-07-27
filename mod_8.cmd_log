@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mod_8.ngc mod_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mod_8_map.ncd mod_8.ngd mod_8.pcf 
+par -w -intstyle ise -ol high -t 1 mod_8_map.ncd mod_8.ncd mod_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod_8.twx mod_8.ncd -o mod_8.twr mod_8.pcf 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mod_8.ngc mod_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mod_8_map.ncd mod_8.ngd mod_8.pcf 
+par -w -intstyle ise -ol high -t 1 mod_8_map.ncd mod_8.ncd mod_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod_8.twx mod_8.ncd -o mod_8.twr mod_8.pcf 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mod_8.ngc mod_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mod_8_map.ncd mod_8.ngd mod_8.pcf 
+par -w -intstyle ise -ol high -t 1 mod_8_map.ncd mod_8.ncd mod_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mod_8.twx mod_8.ncd -o mod_8.twr mod_8.pcf 
+xst -intstyle ise -ifn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.xst" -ofn "D:/FISEI/OCTAVO/VLSI/xilink/mod8_asc_dsc/mod_8.syr" 
